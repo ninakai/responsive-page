@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.column {
+    background-color: #f8f8f8; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1); 
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    transition: all 0.3s ease; /* Adding transition for smoother effect */
+}
+
+.column h2 {
+    margin-bottom: 10px;
+}
+
+.task h3 {
+    margin: 0;
+}
+
+.task {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.task-title {
+    margin: 0;
+}
+
+.task-description {
+    margin: 0;
+}
+
+.move-button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.move-button:hover {
+    transform: translateY(2px); 
+}
+
